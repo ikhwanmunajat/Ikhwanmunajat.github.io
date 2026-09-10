@@ -1,0 +1,168 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',Arial,sans-serif;
+}
+
+body{
+background:#071018;
+color:white;
+line-height:1.7;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:20px 8%;
+background:#071018dd;
+backdrop-filter:blur(10px);
+z-index:10;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.logo span,h1 span,.tag{
+color:#00a8ff;
+}
+
+.nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+}
+
+.hero{
+min-height:100vh;
+padding:130px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:40px;
+background-image:
+linear-gradient(#ffffff08 1px,transparent 1px),
+linear-gradient(90deg,#ffffff08 1px,transparent 1px);
+background-size:40px 40px;
+}
+
+h1{
+font-size:55px;
+line-height:1.2;
+}
+
+.hero-text p{
+max-width:650px;
+margin:20px 0;
+}
+
+.profile img{
+width:330px;
+height:330px;
+border-radius:50%;
+object-fit:cover;
+border:8px solid #00a8ff;
+}
+
+.button{
+display:inline-block;
+padding:12px 30px;
+background:#00a8ff;
+color:white;
+text-decoration:none;
+border-radius:30px;
+margin:5px;
+}
+
+.outline{
+background:none;
+border:1px solid #00a8ff;
+}
+
+section{
+padding:80px 8%;
+}
+
+h2{
+text-align:center;
+font-size:38px;
+margin-bottom:40px;
+}
+
+.box,.card,.timeline div{
+background:#111d29;
+padding:30px;
+border-radius:18px;
+}
+
+.stats,.cards,.timeline{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.skills div{
+max-width:600px;
+margin:20px auto;
+}
+
+.skills span{
+display:block;
+height:10px;
+background:#00a8ff;
+border-radius:20px;
+margin-top:10px;
+}
+
+.card{
+width:320px;
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:12px;
+}
+
+.icons{
+text-align:center;
+font-size:40px;
+color:#00a8ff;
+}
+
+.icons i{
+margin:15px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#03070b;
+}
+
+@media(max-width:800px){
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+h1{
+font-size:35px;
+}
+
+.nav{
+display:none;
+}
+}

@@ -1,0 +1,1 @@
+Upload index.html to GitHub Pages. Add your own assets/profile.jpg, cv.pdf, and project images.

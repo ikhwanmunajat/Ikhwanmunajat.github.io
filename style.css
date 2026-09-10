@@ -1,0 +1,26 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+body{background:#081018;color:#fff;line-height:1.7}
+header{position:fixed;top:0;width:100%;padding:20px 8%;background:#081018cc;backdrop-filter:blur(10px);z-index:10}
+nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:30px;font-weight:bold}.logo span,h1 span{color:#00a8ff}
+.menu a{color:white;text-decoration:none;margin-left:25px}
+.hero{min-height:100vh;padding:140px 8% 80px;display:flex;align-items:center;justify-content:space-between;gap:50px}
+.hero h1{font-size:55px;line-height:1.2}
+.tag{color:#00a8ff;font-size:13px}
+.hero p{max-width:600px;margin:20px 0}
+.profile img{width:330px;height:330px;border-radius:50%;object-fit:cover;border:7px solid #00a8ff}
+.btn{display:inline-block;padding:12px 28px;border-radius:30px;background:#00a8ff;color:white;text-decoration:none;margin-right:10px}
+.outline{background:transparent;border:1px solid #00a8ff}
+section{padding:80px 8%}
+h2{text-align:center;font-size:38px;margin-bottom:40px}
+.grid{display:flex;justify-content:center;flex-wrap:wrap;gap:25px}
+.card,.project,.timeline div{background:#121e2b;padding:30px;border-radius:18px;width:310px}
+.card i{font-size:40px;color:#00a8ff}
+.chips{text-align:center}
+.chips span{display:inline-block;background:#121e2b;padding:12px 25px;border-radius:30px;margin:8px}
+.project img{width:100%;border-radius:12px}
+.timeline{display:flex;justify-content:center;gap:25px;flex-wrap:wrap}
+.social{text-align:center;font-size:40px;color:#00a8ff}
+.social i{margin:15px}
+footer{text-align:center;padding:30px;background:#05090d}
+@media(max-width:800px){.hero{flex-direction:column;text-align:center}.hero h1{font-size:35px}.menu{display:none}}
